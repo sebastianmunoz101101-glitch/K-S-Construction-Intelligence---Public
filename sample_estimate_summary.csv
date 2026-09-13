@@ -1,0 +1,2 @@
+job_id,client,scope,line_count,review_required_lines,estimated_material_cost,estimated_labor_hours,estimated_labor_cost,estimated_cost_before_markup,recommended_customer_quote,data_status
+DEMO-001,Demo Client,basement_finish,5,0,3132.15,75.73,2650.38,5782.53,8635.25,synthetic_public_demo_not_real_ks_dollars
