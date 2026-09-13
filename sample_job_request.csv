@@ -1,0 +1,6 @@
+job_id,client,scope,item,quantity,unit,room,notes,data_status
+DEMO-001,Demo Client,basement_finish,drywall_1_2in,850,sqft,basement,walls only,synthetic_public_demo_not_real_ks_dollars
+DEMO-001,Demo Client,basement_finish,insulation_r13,600,sqft,basement,exterior walls,synthetic_public_demo_not_real_ks_dollars
+DEMO-001,Demo Client,basement_finish,vinyl_flooring_lvp,475,sqft,basement,floating floor,synthetic_public_demo_not_real_ks_dollars
+DEMO-001,Demo Client,basement_finish,baseboard_trim,120,linear_ft,basement,white trim,synthetic_public_demo_not_real_ks_dollars
+DEMO-001,Demo Client,basement_finish,paint_wall,850,sqft,basement,two coats,synthetic_public_demo_not_real_ks_dollars
