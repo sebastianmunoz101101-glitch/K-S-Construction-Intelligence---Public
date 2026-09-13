@@ -1,0 +1,11 @@
+{
+  "data_status": "synthetic_public_demo_not_real_ks_dollars",
+  "jobs_evaluated": 5,
+  "mean_absolute_error_cost": 13.0,
+  "median_absolute_error_cost": 10.0,
+  "mean_absolute_percentage_error": 0.0971,
+  "mean_gross_margin": 0.3179,
+  "median_gross_margin": 0.3226,
+  "mean_quote_to_actual_ratio": 1.4955,
+  "mean_change_order_share": 0.0337
+}
