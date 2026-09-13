@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local files
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Private business files never committed
+raw_sources/
+private_data/
+invoices/
+contracts/
+receipts/
+*.zip
+*.pdf
+*.png
+*.jpg
+*.jpeg
