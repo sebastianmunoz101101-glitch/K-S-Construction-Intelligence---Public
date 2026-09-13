@@ -1,0 +1,6 @@
+job_id,scope,estimated_cost,quoted_price,actual_cost,final_revenue,labor_hours,change_order_value,data_status
+DEMO-HIST-001,basement_flooring,100,150,105,155,10,6,synthetic_public_demo_not_real_ks_dollars
+DEMO-HIST-002,drywall_repair,80,120,74,120,7,0,synthetic_public_demo_not_real_ks_dollars
+DEMO-HIST-003,basement_finish,220,330,240,335,18,14,synthetic_public_demo_not_real_ks_dollars
+DEMO-HIST-004,insulation,90,140,95,140,8,0,synthetic_public_demo_not_real_ks_dollars
+DEMO-HIST-005,paint_trim,110,170,100,170,9,5,synthetic_public_demo_not_real_ks_dollars
