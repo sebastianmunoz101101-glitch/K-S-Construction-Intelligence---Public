@@ -1,0 +1,35 @@
+[
+  {
+    "case_id": "ready_basement_finish",
+    "description": "Complete synthetic basement finish estimate should be ready for human review.",
+    "job_rows": [
+      {"job_id":"CASE-001","client":"Demo Client","scope":"basement_finish","item":"drywall_1_2in","quantity":850,"unit":"sqft"},
+      {"job_id":"CASE-001","client":"Demo Client","scope":"basement_finish","item":"insulation_r13","quantity":600,"unit":"sqft"},
+      {"job_id":"CASE-001","client":"Demo Client","scope":"basement_finish","item":"vinyl_flooring_lvp","quantity":475,"unit":"sqft"},
+      {"job_id":"CASE-001","client":"Demo Client","scope":"basement_finish","item":"baseboard_trim","quantity":120,"unit":"linear_ft"},
+      {"job_id":"CASE-001","client":"Demo Client","scope":"basement_finish","item":"paint_wall","quantity":850,"unit":"sqft"}
+    ],
+    "expected_status":"ready_for_human_review",
+    "expected_min_blockers":0
+  },
+  {
+    "case_id": "missing_price_blocker",
+    "description": "Unknown item should block a final customer quote until price assumptions are added.",
+    "job_rows": [
+      {"job_id":"CASE-002","client":"Demo Client","scope":"basement_finish","item":"drywall_1_2in","quantity":500,"unit":"sqft"},
+      {"job_id":"CASE-002","client":"Demo Client","scope":"basement_finish","item":"custom_bar_buildout","quantity":1,"unit":"each"}
+    ],
+    "expected_status":"blocked_missing_inputs",
+    "expected_min_blockers":1
+  },
+  {
+    "case_id": "bad_quantity_blocker",
+    "description": "Zero or missing quantities should block a final customer quote.",
+    "job_rows": [
+      {"job_id":"CASE-003","client":"Demo Client","scope":"flooring","item":"vinyl_flooring_lvp","quantity":0,"unit":"sqft"},
+      {"job_id":"CASE-003","client":"Demo Client","scope":"flooring","item":"baseboard_trim","quantity":95,"unit":"linear_ft"}
+    ],
+    "expected_status":"blocked_missing_inputs",
+    "expected_min_blockers":1
+  }
+]
